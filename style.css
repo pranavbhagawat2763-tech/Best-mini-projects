@@ -138,7 +138,34 @@ a {
 .sticky-nav{
     position: sticky;
     top: 0;
-    background-color: #232323;
+    background-color: #121212;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.nav-icons img{
+    margin-left: 0.75rem;
+}
+
+.nav-icons-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-icons-option button {
+    margin-right: 1rem;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.dark-badge{
+    background-color: #000;
+    color: white;
+    font-weight: 700;
 }

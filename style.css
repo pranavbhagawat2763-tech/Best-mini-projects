@@ -18,7 +18,7 @@ body {
     width: 340px;
     border-radius: 1rem;
     /*16px */
-    margin-right: 0.5 rem;
+    margin-right: 0.5rem;
 }
 
 .player {
@@ -133,4 +133,12 @@ a {
     margin-top: 0.5rem;
     height: 2rem;
     width: fit-content;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #232323;
+    display: flex;
+    justify-content: space-between;
 }
